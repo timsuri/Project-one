@@ -15,3 +15,4 @@ ggplot(data, aes(Week, mortality, group=Year)) +
   theme(strip.placement = "outside", strip.text.x = element_text(margin = margin(0, 0, 0, 0)))+
   scale_x_continuous(breaks = seq(1, 52, 2))+
   scale_y_continuous(breaks = seq(-0.1, 0.8, 0.1))  
+
