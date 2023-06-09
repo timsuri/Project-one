@@ -16,3 +16,4 @@ ggplot(data, aes(Week, mortality, group=Year)) +
   scale_x_continuous(breaks = seq(1, 52, 2))+
   scale_y_continuous(breaks = seq(-0.1, 0.8, 0.1))  
 
+
